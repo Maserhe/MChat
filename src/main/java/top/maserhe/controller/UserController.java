@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import top.maserhe.pojo.User;
-import top.maserhe.pojo.UserT;
 import top.maserhe.pojo.vo.UserVo;
 import top.maserhe.service.UserService;
 import top.maserhe.utils.MD5Utils;
@@ -28,6 +27,7 @@ public class UserController {
     @RequestMapping("/login")
     public MaserheJSONResult registerOrLogin(@RequestBody User user) throws Exception {
 
+        System.out.println(user);
         // 用户名和 密码 不能位空
         if (StringUtils.isEmpty(user.getUsername())|| StringUtils.isEmpty(user.getPassword())) {
             return MaserheJSONResult.errorMsg("用户名和密码 不能位空。。。。。");
@@ -48,8 +48,8 @@ public class UserController {
             user.setFaceImage("");
             user.setFaceImageBig("");
             user.setPassword(MD5Utils.getMD5Str(user.getPassword()));
-            userResult = userService.saveUser(user);
 
+            userResult = userService.saveUser(user);
 
         }
         UserVo uservo =  new UserVo();

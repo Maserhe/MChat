@@ -34,7 +34,8 @@ public class UserServiceImpl implements UserService {
         // 创建唯一的 sid
         user.setId(Sid.next());
         // 给用户创建 二维码
-        user.setCid("");
+        user.setQrcode("");
+
         userMapper.insert(user);
 
         return user;

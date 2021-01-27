@@ -95,4 +95,18 @@ public class User {
     public void setCid(String cid) {
         this.cid = cid == null ? null : cid.trim();
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", faceImage='" + faceImage + '\'' +
+                ", faceImageBig='" + faceImageBig + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", qrcode='" + qrcode + '\'' +
+                ", cid='" + cid + '\'' +
+                '}';
+    }
 }

@@ -103,6 +103,10 @@
 			<artifactId>spring-test</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -128,7 +132,7 @@
 					<dependency>
 						<groupId>mysql</groupId>
 						<artifactId>mysql-connector-java</artifactId>
-						<version>5.1.41</version>
+						<version>8.0.22</version>
 					</dependency>
 				</dependencies>
 			</plugin>
