@@ -25,4 +25,6 @@ public interface UserService {
     // 根据用户id查询用户。
     public User queryUserById(String userId);
 
+    // 更新用户信息。
+    User updateUserInfo(User user);
 }
