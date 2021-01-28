@@ -57,6 +57,20 @@
 			<version>4.1.25.Final</version>
 		</dependency>
 
+		<!--Google的Gson库-->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.5</version>
+		</dependency>
+
+		<!--阿里的FastJson库-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.60</version>
+		</dependency>
+
 		<!--主键id生成器-->
 
 		<dependency>
@@ -107,7 +121,20 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 	</dependencies>
+
+
+
 
 	<build>
 		<plugins>

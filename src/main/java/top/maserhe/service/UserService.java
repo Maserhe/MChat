@@ -18,4 +18,11 @@ public interface UserService {
 
     // 注册用户
     public User saveUser(User user);
+
+    // 修改用户的 记录。
+    public User updateUserFaceImage(User user);
+
+    // 根据用户id查询用户。
+    public User queryUserById(String userId);
+
 }
