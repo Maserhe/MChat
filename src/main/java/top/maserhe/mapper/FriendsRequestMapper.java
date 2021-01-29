@@ -17,4 +17,6 @@ public interface FriendsRequestMapper {
 
     int updateByPrimaryKey(FriendsRequest record);
 
+    FriendsRequest queryFriendsRequestByBothId(String myUserId, String friendId);
+
 }

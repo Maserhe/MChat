@@ -7,7 +7,10 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 import top.maserhe.component.FastdfsClient;
+import top.maserhe.enums.SearchFriendsStatus;
+import top.maserhe.mapper.FriendsMapper;
 import top.maserhe.mapper.UserMapper;
+import top.maserhe.pojo.Friends;
 import top.maserhe.pojo.User;
 import top.maserhe.utils.LogUtil;
 import top.maserhe.utils.file.Base64DecodeMultipartFile;
@@ -32,8 +35,11 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    @Resource
-    FastdfsClient fastdfsClient;
+    @Autowired
+    private FastdfsClient fastdfsClient;
+
+    @Autowired
+    private FriendsMapper friendsMapper;
 
     @Transactional(propagation = Propagation.SUPPORTS,rollbackFor = Exception.class)
     @Override
@@ -82,6 +88,12 @@ public class UserServiceImpl implements UserService {
         return queryUserById(user.getId());
     }
 
+    @Transactional(propagation = Propagation.SUPPORTS,rollbackFor = Exception.class)
+    @Override
+    public User queryUsersByUsername(String username) {
+        return userMapper.getUserByUsername(username);
+    }
+
     /**
      * 生成一个二维码，内容是账号id
      * @param users 账号信息
@@ -117,4 +129,23 @@ public class UserServiceImpl implements UserService {
         }
         return qrcode;
     }
+
+    // 前置跳转查询。
+    @Override
+    public Integer preconditionSearchFriends(String userId, String friendUsername) {
+
+        // 1. 用户是否存在。
+        User user = queryUsersByUsername(friendUsername);
+        if (user == null) {
+            return SearchFriendsStatus.USER_NOT_EXIST.status;
+        }
+        // 2， 搜索的账号是自己
+        if (user.getId().equals(userId)) return SearchFriendsStatus.NOT_YOURSELF.status;
+
+        // 3. 已经是自己的好友了。
+        Friends friends = friendsMapper.searchFriend(userId, user.getId());
+        if (friends == null) return SearchFriendsStatus.SUCCESS.status;
+        return SearchFriendsStatus.ALREADY_FRIEND.status;
+    }
+
 }

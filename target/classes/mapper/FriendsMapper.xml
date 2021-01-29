@@ -70,4 +70,12 @@
       my_friend_user_id = #{myFriendUserId,jdbcType=VARCHAR}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+
+  <!--查询两个人是否是好友-->
+  <select id="searchFriend" resultType="Friends" parameterType="string">
+    select * from my_friends
+    where my_user_id = #{myId} and my_friend_user_id = #{friendId}
+  </select>
+
+
 </mapper>

@@ -1,7 +1,7 @@
 package top.maserhe.enums;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
  * @date 2020/1/12 16:33
  */

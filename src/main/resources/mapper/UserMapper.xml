@@ -141,4 +141,9 @@
       and password = #{password, jdbcType=VARCHAR}
   </select>
 
+  <select id="queryMyFriendsList" resultType="top.maserhe.pojo.vo.FriendRequestVO">
+
+
+  </select>
+
 </mapper>

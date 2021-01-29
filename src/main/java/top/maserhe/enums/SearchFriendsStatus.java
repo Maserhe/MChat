@@ -1,11 +1,12 @@
 package top.maserhe.enums;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/10 14:38
+ * @date 2021/1/10 14:38
  */
 public enum SearchFriendsStatus {
+
     /**
      * 搜索好友的结果
      */

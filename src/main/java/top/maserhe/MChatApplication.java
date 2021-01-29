@@ -6,10 +6,10 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-public class MechatApplication {
+public class MChatApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MechatApplication.class, args);
+		SpringApplication.run(MChatApplication.class, args);
 	}
 
 }

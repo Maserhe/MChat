@@ -81,4 +81,10 @@
       request_date_time = #{requestDateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+
+  <select id="queryFriendsRequestByBothId" parameterType="string" resultType="top.maserhe.pojo.FriendsRequest">
+    select *
+    from friends_request
+    where send_user_id = #{myUserId} and accept_user_id = #{friendId};
+  </select>
 </mapper>

@@ -27,4 +27,12 @@ public interface UserService {
 
     // 更新用户信息。
     User updateUserInfo(User user);
+
+    // 根据用户名来查询用户。
+    User queryUsersByUsername(String username);
+
+    // 搜索朋友的前置条件。
+    Integer preconditionSearchFriends(String userId, String  friendUsername);
+
+
 }

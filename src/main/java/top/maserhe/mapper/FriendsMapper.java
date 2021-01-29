@@ -5,6 +5,7 @@ import top.maserhe.pojo.Friends;
 
 @Mapper
 public interface FriendsMapper {
+
     int deleteByPrimaryKey(String id);
 
     int insert(Friends record);
@@ -16,4 +17,7 @@ public interface FriendsMapper {
     int updateByPrimaryKeySelective(Friends record);
 
     int updateByPrimaryKey(Friends record);
+
+    Friends searchFriend(String myId, String friendId);
+
 }

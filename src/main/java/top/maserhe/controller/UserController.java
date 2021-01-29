@@ -3,11 +3,18 @@ package top.maserhe.controller;
 import com.mysql.cj.util.LogUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.*;
 import top.maserhe.enums.ResultCode;
+import top.maserhe.enums.SearchFriendsStatus;
+import top.maserhe.mapper.FriendsRequestMapper;
 import top.maserhe.pojo.User;
 import top.maserhe.pojo.bo.UserBO;
+import top.maserhe.pojo.vo.UserVO;
+import top.maserhe.service.FriendsRequestService;
+import top.maserhe.service.FriendsRequestServiceImpl;
 import top.maserhe.service.UserService;
 import top.maserhe.utils.LogUtil;
 import top.maserhe.utils.Md5Util;
@@ -28,6 +35,9 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private FriendsRequestService friendsRequestService;
 
     @PostMapping("/login")
     public JsonResult toLogin(@RequestBody User user) {
@@ -88,5 +98,55 @@ public class UserController {
         User result = userService.updateUserInfo(user);
         LogUtil.info(result.getNickname());
         return JsonResult.success(ReturnVOUtil.copyToUsersVO(result));
+    }
+
+
+    @PostMapping("/search")
+    public JsonResult searchUser(String userId, String friendUsername) {
+
+        // 1. 判断 userId friend 不能为空
+        if (StringUtils.isBlank(friendUsername) || StringUtils.isBlank(friendUsername))
+            return JsonResult.failure(ResultCode.PARAM_IS_BLANK);   // 参数为空。
+        Integer status = userService.preconditionSearchFriends(userId, friendUsername);
+
+        // 2. 两个人 还不是朋友。
+        if (status == SearchFriendsStatus.SUCCESS.status) {
+            User user = userService.queryUsersByUsername(friendUsername);
+            // 将对象返回 userVo
+            UserVO userVO = new UserVO();
+            BeanUtils.copyProperties(user, userVO);
+            return JsonResult.success(userVO);
+
+        } else {
+        // 3. 根据错误的状态码， 返回错误信息。
+            String errorMsg = SearchFriendsStatus.getMsgByKey(status);
+            return JsonResult.failure(errorMsg);
+        }
+    }
+
+    /**
+     *  添加用户
+     * @param userId        本人id
+     * @param friendUsername 需要添加好友的id
+     * @return
+     */
+    @PostMapping("/addFriendRequest")
+    public JsonResult addUser(String userId, String friendUsername) {
+
+        // 1. 判断 userId friend 不能为空
+        if (StringUtils.isBlank(friendUsername) || StringUtils.isBlank(friendUsername))
+            return JsonResult.failure(ResultCode.PARAM_IS_BLANK);   // 参数为空。
+        Integer status = userService.preconditionSearchFriends(userId, friendUsername);
+
+        // 2. 两个人 还不是朋友。
+        if (status == SearchFriendsStatus.SUCCESS.status) {
+            // 发送好友请求。
+            friendsRequestService.sendFriendRequest(userId, friendUsername);
+            return JsonResult.success();
+        } else {
+            // 3. 根据错误的状态码， 返回错误信息。
+            String errorMsg = SearchFriendsStatus.getMsgByKey(status);
+            return JsonResult.failure(errorMsg);
+        }
     }
 }

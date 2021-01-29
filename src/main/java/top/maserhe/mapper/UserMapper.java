@@ -1,7 +1,13 @@
 package top.maserhe.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
+import sun.misc.Request;
+import top.maserhe.pojo.Friends;
 import top.maserhe.pojo.User;
+import top.maserhe.pojo.vo.FriendRequestVO;
+import top.maserhe.pojo.vo.UserVO;
+
+import java.util.List;
 
 @Mapper
 public interface UserMapper {
@@ -21,5 +27,7 @@ public interface UserMapper {
     User getUserByUsername(String username);
 
     User gerUserByUsernameAndPassword(String username, String password);
+
+    List<FriendRequestVO> queryMyFriendsList(String userId);
 
 }
