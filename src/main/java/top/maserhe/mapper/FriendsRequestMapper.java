@@ -19,4 +19,5 @@ public interface FriendsRequestMapper {
 
     FriendsRequest queryFriendsRequestByBothId(String myUserId, String friendId);
 
+    int deleteBySenderUserIdAndAcceptUserId(String senderUserId, String acceptUserId);
 }

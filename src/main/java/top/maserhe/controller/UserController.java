@@ -55,7 +55,7 @@ public class UserController {
             if (userResult == null) {
                 return JsonResult.failure(ResultCode.USER_LOGIN_ERROR);
             } else {
-                return JsonResult.success(userResult);
+                return JsonResult.success(ReturnVOUtil.copyToUsersVO(userResult));
             }
         } else {
             return JsonResult.failure(ResultCode.USER_NOT_EXIST);
@@ -84,7 +84,7 @@ public class UserController {
             user.setFaceImageBig("");
             user.setPassword(Md5Util.getMd5(user.getPassword()));
             userResult = userService.saveUser(user);
-            return JsonResult.success(userResult);
+            return JsonResult.success(ReturnVOUtil.copyToUsersVO(userResult));
         }
     }
 

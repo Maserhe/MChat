@@ -1,6 +1,10 @@
 package top.maserhe.service;
 
+import jdk.internal.dynalink.linker.LinkerServices;
 import top.maserhe.pojo.User;
+import top.maserhe.pojo.vo.FriendRequestVO;
+
+import java.util.List;
 
 /**
  * 描述:
@@ -34,5 +38,7 @@ public interface UserService {
     // 搜索朋友的前置条件。
     Integer preconditionSearchFriends(String userId, String  friendUsername);
 
+    // 查询所有的好友申请。
+    List<FriendRequestVO> queryMyFriendsList(String acceptUserId);
 
 }

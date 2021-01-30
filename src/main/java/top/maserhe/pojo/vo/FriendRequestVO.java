@@ -20,7 +20,7 @@ public class FriendRequestVO {
     /**
      *  发送者名称。
     */
-    private String Username;
+    private String username;
     /**
      * 发送者昵称
      */

@@ -28,6 +28,6 @@ public interface UserMapper {
 
     User gerUserByUsernameAndPassword(String username, String password);
 
-    List<FriendRequestVO> queryMyFriendsList(String userId);
+    List<FriendRequestVO> queryMyFriendsList(String acceptUserId);
 
 }

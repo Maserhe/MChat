@@ -45,6 +45,10 @@ public class FriendsRequestServiceImpl implements FriendsRequestService{
             // 添加记录
             friendsRequestMapper.insert(friendsRequest);
         }
+    }
 
+    @Override
+    public void deleteFriendRequest(String sendUserId, String acceptUserId) {
+        friendsRequestMapper.deleteBySenderUserIdAndAcceptUserId(sendUserId, acceptUserId);
     }
 }

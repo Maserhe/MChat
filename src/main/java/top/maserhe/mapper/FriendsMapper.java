@@ -2,6 +2,9 @@ package top.maserhe.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import top.maserhe.pojo.Friends;
+import top.maserhe.pojo.vo.FriendsVO;
+
+import java.util.List;
 
 @Mapper
 public interface FriendsMapper {
@@ -20,4 +23,5 @@ public interface FriendsMapper {
 
     Friends searchFriend(String myId, String friendId);
 
+    List<FriendsVO> queryFriendList(String userId);
 }

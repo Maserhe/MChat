@@ -87,4 +87,10 @@
     from friends_request
     where send_user_id = #{myUserId} and accept_user_id = #{friendId};
   </select>
+
+  <delete id="deleteBySenderUserIdAndAcceptUserId" parameterType="string">
+    delete
+    from friends_request
+    where send_user_id = #{senderUserId} and accept_user_id = #{acceptUserId};
+  </delete>
 </mapper>

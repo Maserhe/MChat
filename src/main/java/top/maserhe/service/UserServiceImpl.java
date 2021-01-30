@@ -12,6 +12,7 @@ import top.maserhe.mapper.FriendsMapper;
 import top.maserhe.mapper.UserMapper;
 import top.maserhe.pojo.Friends;
 import top.maserhe.pojo.User;
+import top.maserhe.pojo.vo.FriendRequestVO;
 import top.maserhe.utils.LogUtil;
 import top.maserhe.utils.file.Base64DecodeMultipartFile;
 import top.maserhe.utils.file.FileUtil;
@@ -22,6 +23,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Base64;
+import java.util.List;
 
 /**
  * 描述:
@@ -147,5 +149,11 @@ public class UserServiceImpl implements UserService {
         if (friends == null) return SearchFriendsStatus.SUCCESS.status;
         return SearchFriendsStatus.ALREADY_FRIEND.status;
     }
+
+    @Override
+    public List<FriendRequestVO> queryMyFriendsList(String acceptUserId) {
+        return userMapper.queryMyFriendsList(acceptUserId);
+    }
+
 
 }

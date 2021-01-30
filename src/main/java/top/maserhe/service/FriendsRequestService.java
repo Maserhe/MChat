@@ -15,5 +15,11 @@ public interface FriendsRequestService {
      */
     public void sendFriendRequest(String myUserId, String friendUsername);
 
+    /**
+     * 删除好友请求
+     * @param sendUserId
+     * @param acceptUserId
+     */
+    public void deleteFriendRequest(String sendUserId, String acceptUserId);
 
 }

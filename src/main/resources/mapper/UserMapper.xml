@@ -142,8 +142,14 @@
   </select>
 
   <select id="queryMyFriendsList" resultType="top.maserhe.pojo.vo.FriendRequestVO">
-
-
+    select sender.id as sendUserId,
+           sender.username as username,
+           sender.nickname as sendNickname,
+           sender.face_image as sendFaceImage
+    from friends_request fr
+           left join users sender
+                     on fr.send_user_id = sender.id
+    where fr.accept_user_id = #{acceptUserId}
   </select>
 
 </mapper>
