@@ -1,8 +1,18 @@
+## MChat
+仿微信App的后端。使用springboot+mybatis构建后端。netty用于搭建webscoket服务器与APP进行双向通信。搭建了一个fastDFS分布式文件系统用于图片和音频等文件的存储，使用Google的zxing来生成带logo的二维码。使用fastJSON和Gson解析和生成JSON用于信息的传输。
 
+# 技术栈
+- springboot用于快速构建spring应用
+- mybatis持久层框架
+- Netty高性能通信框架
+- fastDFS分布式文件系统
 
+## APP
+- 还没完全做好进行打包~
 
-## 采用MUI前端框架
-![20210127012808-2021-01-27-01-28-09](https://picgo-1259138584.cos.ap-beijing.myqcloud.com/Markdown/20210127012808-2021-01-27-01-28-09.png)
+## 前端主题
+[MChat_theme](https://github.com/Maserhe/MChat_Theme)
+## 效果
 
-## Netty高并发的服务器
-- 采用主从线程组配置
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2021013018562744.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzI0ODM0,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210130185650266.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzI0ODM0,size_16,color_FFFFFF,t_70)

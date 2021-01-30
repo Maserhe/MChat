@@ -77,5 +77,17 @@
     where my_user_id = #{myId} and my_friend_user_id = #{friendId}
   </select>
 
+  <select id="queryFriendList" resultType="top.maserhe.pojo.vo.FriendsVO">
+    select u.id as friendId,
+           u.username as friendUsername,
+           u.face_image as friendFaceImage,
+           u.nickname as friendNickname
+    from my_friends mf
+    left join
+        users u
+    on u.id = mf.my_friend_user_id
+    where mf.my_user_id = #{userId}
 
+
+  </select>
 </mapper>
