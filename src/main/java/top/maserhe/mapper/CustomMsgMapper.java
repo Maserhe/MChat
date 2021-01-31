@@ -6,9 +6,9 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/12 17:24
+ * @date 2021/1/12 17:24
  */
 @Mapper
 public interface CustomMsgMapper {

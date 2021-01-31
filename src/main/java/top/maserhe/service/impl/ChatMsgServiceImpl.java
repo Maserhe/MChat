@@ -22,9 +22,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/12 16:25
+ * @date 2021/1/12 16:25
  */
 @Service
 public class ChatMsgServiceImpl implements ChatMsgService {

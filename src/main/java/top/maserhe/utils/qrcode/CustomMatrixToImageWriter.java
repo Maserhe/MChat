@@ -9,9 +9,9 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 重写了一个生成二维码的基类
- * @date 2020/1/11 11:04
+ * @date 2021/1/11 11:04
  */
 public final class CustomMatrixToImageWriter {
     /**

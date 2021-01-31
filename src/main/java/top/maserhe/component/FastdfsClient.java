@@ -14,9 +14,9 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/8 23:07
+ * @date 2021/1/8 23:07
  */
 @Component
 public class FastdfsClient {

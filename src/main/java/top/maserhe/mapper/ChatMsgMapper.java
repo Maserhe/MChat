@@ -4,9 +4,9 @@ import top.maserhe.entity.ChatMsg;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/7 19:51
+ * @date 2021/1/7 19:51
  */
 @Mapper
 public interface ChatMsgMapper extends tk.mybatis.mapper.common.Mapper<ChatMsg> {

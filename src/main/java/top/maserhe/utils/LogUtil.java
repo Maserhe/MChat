@@ -3,9 +3,9 @@ package top.maserhe.utils;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/4 15:06
+ * @date 2021/1/4 15:06
  */
 public class LogUtil {
 

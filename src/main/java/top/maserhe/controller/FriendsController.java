@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 import javax.validation.Valid;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 好友相关请求的处理
  * @date 2020/1/10 14:27
  */

@@ -6,9 +6,9 @@ import top.maserhe.entity.vo.UsersVO;
 import java.util.List;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/10 14:46
+ * @date 2021/1/10 14:46
  */
 public interface FriendService {
     /**

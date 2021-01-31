@@ -5,8 +5,8 @@ import lombok.Data;
 
 /**
  * 自定义响应数据结构
- * @author monkJay
- * @date 2020/1/7 13:57
+ * @author Maserhe
+ * @date 2021/1/7 13:57
  */
 @Data
 public class JsonResult {

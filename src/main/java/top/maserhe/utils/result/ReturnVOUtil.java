@@ -5,9 +5,9 @@ import top.maserhe.entity.vo.UsersVO;
 import org.springframework.beans.BeanUtils;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/10 15:20
+ * @date 2021/1/10 15:20
  */
 public class ReturnVOUtil {
 

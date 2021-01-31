@@ -15,9 +15,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 二维码生成工具类
- * @date 2020/1/9 22:57
+ * @date 2021/1/9 22:57
  */
 public class QRCodeUtil {
 

@@ -3,9 +3,9 @@ package top.maserhe.service;
 import top.maserhe.entity.Users;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/7 23:39
+ * @date 2021/1/7 23:39
  */
 public interface UserService {
 

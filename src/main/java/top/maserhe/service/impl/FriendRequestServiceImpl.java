@@ -19,9 +19,9 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/11 0:10
+ * @date 2021/1/11 0:10
  */
 @Service
 public class FriendRequestServiceImpl implements FriendRequestService {

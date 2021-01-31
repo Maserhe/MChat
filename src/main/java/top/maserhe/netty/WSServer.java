@@ -17,9 +17,9 @@ import io.netty.handler.timeout.IdleStateHandler;
 import org.springframework.stereotype.Component;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/5 19:07
+ * @date 2021/1/5 19:07
  */
 @Component
 public class WsServer {

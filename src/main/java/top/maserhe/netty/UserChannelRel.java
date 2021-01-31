@@ -7,9 +7,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author monkJay
+ * @author Maserhre
  * @description
- * @date 2020/1/12 15:55
+ * @date 2021/1/12 15:55
  */
 public class UserChannelRel {
 

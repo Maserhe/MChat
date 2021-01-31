@@ -8,9 +8,9 @@ import io.netty.handler.timeout.IdleStateEvent;
 import static io.netty.handler.timeout.IdleState.*;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 用于实现Netty的心跳检测
- * @date 2020/1/17 21:09
+ * @date 2021/1/17 21:09
  */
 public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
 

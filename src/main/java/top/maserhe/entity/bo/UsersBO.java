@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 前端传来的用户信息的封装类
  * @date 2020/1/8 23:59
  */

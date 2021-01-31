@@ -20,8 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author monkJay
- * @date 2020/1/7 21:07
+ * @author Maserhe
+ * @date 2021/1/7 21:07
  * @description 处理消息的handler
  * TextWebSocketFrame: 在Netty中，专门用于websocket处理文本的对象，frame是消息的载体
  */

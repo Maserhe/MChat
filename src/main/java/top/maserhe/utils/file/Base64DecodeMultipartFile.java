@@ -6,9 +6,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.*;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/9 10:46
+ * @date 2021/1/9 10:46
  */
 public class Base64DecodeMultipartFile implements MultipartFile {
 

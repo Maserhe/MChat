@@ -1,5 +1,3 @@
-package top.maserhe;
-
 import top.maserhe.service.UserService;
 import top.maserhe.service.impl.ChatMsgServiceImpl;
 import top.maserhe.utils.LogUtil;

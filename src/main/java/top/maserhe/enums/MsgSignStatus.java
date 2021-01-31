@@ -1,9 +1,9 @@
 package top.maserhe.enums;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/12 16:33
+ * @date 2021/1/12 16:33
  */
 public enum MsgSignStatus {
 

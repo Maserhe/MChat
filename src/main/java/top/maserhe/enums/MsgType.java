@@ -1,9 +1,9 @@
 package top.maserhe.enums;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 消息的类型
- * @date 2020/1/18 23:30
+ * @date 2021/1/18 23:30
  */
 public enum MsgType {
 

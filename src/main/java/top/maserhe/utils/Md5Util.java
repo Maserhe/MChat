@@ -3,9 +3,9 @@ package top.maserhe.utils;
 import java.security.MessageDigest;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 对字符串进行MD5加密
- * @date 2020/1/7 22:23
+ * @date 2021/1/7 22:23
  */
 public class Md5Util {
 

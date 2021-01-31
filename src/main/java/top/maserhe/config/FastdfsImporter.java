@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Import;
 import org.springframework.jmx.support.RegistrationPolicy;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 导入FastDFS-client组件
- * @date 2020/1/8 22:59
+ * @date 2021/1/8 22:59
  */
 @Configuration
 @Import(FdfsClientConfig.class)

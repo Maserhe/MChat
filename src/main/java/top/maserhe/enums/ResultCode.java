@@ -1,9 +1,9 @@
 package top.maserhe.enums;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 统一返回状态码
- * @date 2020/1/7 22:15
+ * @date 2021/1/7 22:15
  */
 public enum ResultCode {
 

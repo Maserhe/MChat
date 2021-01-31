@@ -8,9 +8,9 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description
- * @date 2020/1/7 19:51
+ * @date 2021/1/7 19:51
  */
 @Mapper
 public interface MyFriendsMapper extends tk.mybatis.mapper.common.Mapper<MyFriends> {

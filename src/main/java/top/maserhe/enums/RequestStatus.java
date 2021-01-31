@@ -3,9 +3,9 @@ package top.maserhe.enums;
 import lombok.Data;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 好友请求的状态
- * @date 2020/1/10 23:40
+ * @date 2021/1/10 23:40
  */
 public enum RequestStatus {
     /** 等待验证 */

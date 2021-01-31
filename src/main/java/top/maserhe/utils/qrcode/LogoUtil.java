@@ -12,10 +12,10 @@ import java.io.IOException;
 import java.util.Objects;
 
 /**
- * @author monkJay
+ * @author Maserhe
  * @description 二维码添加logo图标
  *          模仿微信自动生成二维码效果，有圆角边框，logo和二维码间有空白区，logo带有灰色边框
- * @date 2020/1/11 11:06
+ * @date 2021/1/11 11:06
  */
 public class LogoUtil {
 

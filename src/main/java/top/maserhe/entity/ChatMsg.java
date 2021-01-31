@@ -8,8 +8,8 @@ import javax.persistence.Id;
 import java.util.Date;
 
 /**
- * @author monkJay
- * @date 2020/1/7 19:44
+ * @author Maserhe
+ * @date 2021/1/7 19:44
  * @description 聊天信息
  */
 @Data
