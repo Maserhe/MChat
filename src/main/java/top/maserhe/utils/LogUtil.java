@@ -3,7 +3,7 @@ package top.maserhe.utils;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Maserhe
+ * @author monkJay
  * @description
  * @date 2020/1/4 15:06
  */
@@ -57,6 +57,7 @@ public class LogUtil {
         if (caller == null) {
             return LoggerFactory.getLogger(LogUtil.class);
         }
+
         // 取出被调用对象的类名，并构造一个Logger对象返回
         return LoggerFactory.getLogger(caller.getClassName());
     }

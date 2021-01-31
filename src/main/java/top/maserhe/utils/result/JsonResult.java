@@ -1,11 +1,11 @@
 package top.maserhe.utils.result;
 
-import lombok.Data;
 import top.maserhe.enums.ResultCode;
+import lombok.Data;
 
 /**
  * 自定义响应数据结构
- * @author Maserhe
+ * @author monkJay
  * @date 2020/1/7 13:57
  */
 @Data

@@ -1,5 +1,7 @@
 package top.maserhe.enums;
 
+import lombok.Data;
+
 /**
  * @author monkJay
  * @description 好友请求的状态

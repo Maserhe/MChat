@@ -1,13 +1,13 @@
 package top.maserhe.component;
 
+import top.maserhe.utils.LogUtil;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
-import top.maserhe.utils.LogUtil;
 
 /**
- * @author Maserhe
+ * @author monkJay
  * @description 获取容器对象，来手动管理bean
  *              使用@Component注册将这个工具类注册到Spring容器中，否则无法完成注入
  * @date 2020/1/12 16:07

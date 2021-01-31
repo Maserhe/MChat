@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="129fdaf7-bcf6-46bc-a5a5-3edf0f8baef7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2e08675-bf56-4d81-9a42-91dfafcae642.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2e08675-bf56-4d81-9a42-91dfafcae642/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_bingoohuang_idworker_client_0_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mchat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/MChatApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/component/FastdfsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/component/FastdfsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/component/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/component/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendsRequestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgSignStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgSignStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/RequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/RequestStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/SearchFriendsStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/SearchFriendsStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/ChatMessageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/FriendsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/FriendsRequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/FriendsRequestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/NettyBooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/WSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/WSServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/WSServerInitialzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/Friends.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/FriendsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/bo/ChatMsgBo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/bo/UserBO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/vo/FriendRequestVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/vo/FriendsVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/pojo/vo/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendsRequestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendsRequestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/Md5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/QRCodeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/Base64DecodeMultipartFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/Base64DecodeMultipartFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/ReturnVOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/ReturnVOUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/qrcode/CustomMatrixToImageWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/qrcode/LogoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/qrcode/QRCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ChatMessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FriendsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FriendsRequestMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21012922195138985984qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21012922322203328512qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013039873448771584qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013039961610944512qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013040098540290048qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013040218239434752qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013040375364354048qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013040419373088768qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/qrcode/21013040482308620288qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/maserhe/MechatApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ChatMessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/FriendsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/FriendsRequestMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21012922195138985984qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21012922322203328512qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013039873448771584qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013039961610944512qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013040098540290048qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013040218239434752qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013040375364354048qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013040419373088768qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/qrcode/21013040482308620288qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/MChatApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/controller/FriendsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/controller/FriendsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/controller/FriendsRequestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/controller/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/enums/RequestStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/enums/RequestStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/enums/SearchFriendsStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/enums/SearchFriendsStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/mapper/ChatMessageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/mapper/FriendsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/mapper/FriendsRequestMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/mapper/FriendsRequestMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/netty/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/netty/ChatHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/netty/NettyBooter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/netty/WSServer$SingletonWSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/netty/WSServer$SingletonWSServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/netty/WSServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/netty/WSServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/netty/WSServerInitialzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/ChatMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/Friends.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/FriendsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/bo/ChatMsgBo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/bo/UserBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/vo/FriendRequestVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/vo/FriendsVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/pojo/vo/UserVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/service/FriendsRequestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/service/FriendsRequestServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/service/FriendsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/service/FriendsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/LogUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/utils/LogUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/utils/Md5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/QRCodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/result/ReturnVOUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/utils/result/ReturnVOUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/result/qrcode/CustomMatrixToImageWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/result/qrcode/LogoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/result/qrcode/QRCodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/maserhe/MechatApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Environment\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\LocalRepository" />
+        <option name="mavenHome" value="E:\Environment\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Environment\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nn8Q4Dgqe7acwxP2sKqtIVsA3F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../machat/after" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ChatApplication (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.maserhe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.maserhe.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coder.nettychat.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ChatApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="129fdaf7-bcf6-46bc-a5a5-3edf0f8baef7" name="Default Changelist" comment="" />
+      <created>1612014478400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612014478400</updated>
+      <workItem from="1612014481418" duration="9533000" />
+      <workItem from="1612106498189" duration="6000" />
+      <workItem from="1612106592702" duration="250000" />
+      <workItem from="1612106860803" duration="3619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

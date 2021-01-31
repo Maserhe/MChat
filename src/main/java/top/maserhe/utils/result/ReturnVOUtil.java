@@ -1,8 +1,8 @@
 package top.maserhe.utils.result;
 
+import top.maserhe.entity.Users;
+import top.maserhe.entity.vo.UsersVO;
 import org.springframework.beans.BeanUtils;
-import top.maserhe.pojo.User;
-import top.maserhe.pojo.vo.UserVO;
 
 /**
  * @author monkJay
@@ -11,10 +11,10 @@ import top.maserhe.pojo.vo.UserVO;
  */
 public class ReturnVOUtil {
 
-    public static UserVO copyToUsersVO(User user){
+    public static UsersVO copyToUsersVO(Users users){
         // 将需要的信息封装到VO类中
-        UserVO userVO = new UserVO();
-        BeanUtils.copyProperties(user, userVO);
-        return userVO;
+        UsersVO usersVO = new UsersVO();
+        BeanUtils.copyProperties(users, usersVO);
+        return usersVO;
     }
 }

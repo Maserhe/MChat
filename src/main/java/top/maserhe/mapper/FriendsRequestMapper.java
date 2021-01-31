@@ -1,23 +1,17 @@
 package top.maserhe.mapper;
 
+import top.maserhe.entity.FriendsRequest;
+import top.maserhe.entity.vo.FriendRequestVO;
 import org.apache.ibatis.annotations.Mapper;
-import top.maserhe.pojo.FriendsRequest;
+import org.apache.ibatis.annotations.Select;
 
+import java.util.List;
+
+/**
+ * @author monkJay
+ * @description
+ * @date 2020/1/7 19:51
+ */
 @Mapper
-public interface FriendsRequestMapper {
-    int deleteByPrimaryKey(String id);
-
-    int insert(FriendsRequest record);
-
-    int insertSelective(FriendsRequest record);
-
-    FriendsRequest selectByPrimaryKey(String id);
-
-    int updateByPrimaryKeySelective(FriendsRequest record);
-
-    int updateByPrimaryKey(FriendsRequest record);
-
-    FriendsRequest queryFriendsRequestByBothId(String myUserId, String friendId);
-
-    int deleteBySenderUserIdAndAcceptUserId(String senderUserId, String acceptUserId);
+public interface FriendsRequestMapper extends tk.mybatis.mapper.common.Mapper<FriendsRequest> {
 }

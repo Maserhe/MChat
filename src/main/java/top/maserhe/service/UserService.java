@@ -1,44 +1,54 @@
 package top.maserhe.service;
 
-import jdk.internal.dynalink.linker.LinkerServices;
-import top.maserhe.pojo.User;
-import top.maserhe.pojo.vo.FriendRequestVO;
-
-import java.util.List;
+import top.maserhe.entity.Users;
 
 /**
- * 描述:
- *
- * @author Maserhe
- * @create 2021-01-26 2:34
+ * @author monkJay
+ * @description
+ * @date 2020/1/7 23:39
  */
 public interface UserService {
 
-    // 查询 用户名 是否 存在。
-    public boolean queryUsernameIsExist(String username);
+    /**
+     * 查询账号是否存在
+     * @param username 账号
+     * @return 是否存在
+     */
+    boolean queryUsernameIsExist(String username);
 
-    // 验证用户的 登陆信息
-    public User queryUserForLogin(String username, String password);
+    /**
+     * 查询账号密码是否合法,存在则返回该账号
+     * @param username 账号
+     * @param pwd 密码
+     * @return Users
+     */
+    Users queryUserForLogin(String username, String pwd);
 
-    // 注册用户
-    public User saveUser(User user);
+    /**
+     * 用户注册
+     * @param users Users
+     * @return Users
+     */
+    Users saveUser(Users users);
 
-    // 修改用户的 记录。
-    public User updateUserFaceImage(User user);
+    /**
+     * 更新账号信息
+     * @param users Users
+     * @return 更新后的账号信息
+     */
+    Users updateUserInfo(Users users);
 
-    // 根据用户id查询用户。
-    public User queryUserById(String userId);
+    /**
+     * 根据账号id查找用户
+     * @param userId 账号id
+     * @return Users
+     */
+    Users queryUsersById(String userId);
 
-    // 更新用户信息。
-    User updateUserInfo(User user);
-
-    // 根据用户名来查询用户。
-    User queryUsersByUsername(String username);
-
-    // 搜索朋友的前置条件。
-    Integer preconditionSearchFriends(String userId, String  friendUsername);
-
-    // 查询所有的好友申请。
-    List<FriendRequestVO> queryMyFriendsList(String acceptUserId);
-
+    /**
+     * 根据用户账号查找用户信息
+     * @param username 账号
+     * @return 用户信息
+     */
+    Users queryUsersByUsername(String username);
 }
