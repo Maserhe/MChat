@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129fdaf7-bcf6-46bc-a5a5-3edf0f8baef7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/ChatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/component/FastdfsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/component/FastdfsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/component/NettyBooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/component/NettyBooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/component/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/component/SpringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/config/FastdfsImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/config/FastdfsImporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/ChatMsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/ChatMsgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendRequestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendRequestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/FriendsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/ChatMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/ChatMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/FriendsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/FriendsRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/MyFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/MyFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/ChatMsgBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/ChatMsgBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/UsersBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/UsersBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgSignStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgSignStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/MsgType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/RequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/RequestStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/ResultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/SearchFriendsStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/enums/SearchFriendsStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/ChatMsgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/ChatMsgMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/CustomMsgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/CustomMsgMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/FriendsRequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/FriendsRequestMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/MyFriendsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/MyFriendsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/mapper/UsersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/ChatHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/HeartbeatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/HeartbeatHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/MsgContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/MsgContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/UserChannelRel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/netty/UserChannelRel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/ChatMsgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/ChatMsgService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendRequestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/FriendService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/ChatMsgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/ChatMsgServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/FriendRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/FriendRequestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/FriendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/FriendServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/Md5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/Base64DecodeMultipartFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/Base64DecodeMultipartFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/file/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/CustomMatrixToImageWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/CustomMatrixToImageWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/LogoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/LogoUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/QRCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/QRCodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/JsonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/ReturnVOUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/result/ReturnVOUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/maserhe/nettychat/ChatApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/maserhe/nettychat/ChatApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="129fdaf7-bcf6-46bc-a5a5-3edf0f8baef7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,17 +49,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Spring Boot.ChatApplication (1)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ChatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <extension name="coverage">
@@ -150,6 +88,7 @@
       <workItem from="1612106592702" duration="250000" />
       <workItem from="1612106860803" duration="3619000" />
       <workItem from="1612113109211" duration="1902000" />
+      <workItem from="1612115324923" duration="9000" />
     </task>
     <servers />
   </component>
