@@ -50,6 +50,7 @@ public class LogUtil {
     /**
      * 自动匹配请求类名，生成logger对象
      */
+
     private static org.slf4j.Logger log() {
         // 最原始被调用的堆栈对象
         StackTraceElement caller = getCaller();

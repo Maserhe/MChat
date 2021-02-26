@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129fdaf7-bcf6-46bc-a5a5-3edf0f8baef7" name="Default Changelist" comment="" />
+    <list default="true" id="129fdaf7-bcf6-46bc-a5a5-3edf0f8baef7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/ChatMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/ChatMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/ChatMsgBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/ChatMsgBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/UsersBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/entity/bo/UsersBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/LogoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/maserhe/utils/qrcode/LogoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/maserhe/nettychat/ChatApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/entity/ChatMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/entity/ChatMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/entity/bo/ChatMsgBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/entity/bo/ChatMsgBo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/entity/bo/UsersBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/entity/bo/UsersBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/LogUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/utils/LogUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/maserhe/utils/qrcode/LogoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/maserhe/utils/qrcode/LogoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChatApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +49,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -41,39 +61,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../machat/after" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nettyTest" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ChatApplication (1)">
-    <configuration name="ChatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="chat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.maserhe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.maserhe.ChatApplication" />
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="chat" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coder.nettychat.ChatApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.maserhe.ChatApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.ChatApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,6 +103,16 @@
       <workItem from="1612106860803" duration="3619000" />
       <workItem from="1612113109211" duration="1902000" />
       <workItem from="1612115324923" duration="9000" />
+      <workItem from="1612123766752" duration="2018000" />
+      <workItem from="1612537879932" duration="8557000" />
+      <workItem from="1612702898580" duration="843000" />
+      <workItem from="1612708881236" duration="904000" />
+      <workItem from="1612956608555" duration="599000" />
+      <workItem from="1613392098438" duration="3914000" />
+      <workItem from="1613448422079" duration="45000" />
+      <workItem from="1614329748497" duration="555000" />
+      <workItem from="1614330381241" duration="422000" />
+      <workItem from="1614330815131" duration="33779000" />
     </task>
     <servers />
   </component>

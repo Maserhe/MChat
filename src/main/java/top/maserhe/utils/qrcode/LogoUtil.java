@@ -26,6 +26,7 @@ public class LogoUtil {
      * @throws IOException
      * @author Administrator sangwenhao
      */
+
     public BufferedImage logoMatrix(BufferedImage matrixImage, String url) throws IOException{
         /**
          * 读取二维码图片，并构建绘图对象
